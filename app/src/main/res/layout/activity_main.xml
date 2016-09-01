@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ActivityStyle"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    tools:context="mawashi.alex.basis.MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        style="@style/CustomFontStyle"
+        android:text="Questa è una prova di come basta poco per cambiare lo stile del tuo cellulare!" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="20dp"
+        style="@style/CustomButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Style"
+        android:onClick="ChangeStyle"/>
+
+</LinearLayout>
